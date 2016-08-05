@@ -1,0 +1,17 @@
+AddDefaultCharset utf8
+##php_value mbstring.language Russian
+##php_value mbstring.internal_encoding UTF-8
+##php_value mbstring.encoding_translation on
+
+<FilesMatch  "\.(xd)$">
+Order Deny,Allow
+Deny from all
+</FilesMatch>
+
+Options -Indexes
+php_flag error_reporting "E_ALL & ~E_NOTICE"
+php_flag display_errors On
+php_flag allow_url_fopen Off
+
+ErrorDocument 404 /images/404.html
+ErrorDocument 403 /images/403.html

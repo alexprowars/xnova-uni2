@@ -1,0 +1,1 @@
+{"users_amount":"2","LastSettedGalaxyPos":"1","LastSettedSystemPos":"1","LastSettedPlanetPos":"2","online":"0","stat_update":"0","active_users":"0","active_alliance":"0"}
